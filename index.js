@@ -190,10 +190,10 @@ app.get("/dashboard", checkAuthenticated, (req, res) => {
   res.render("dashboard", { user });
 });
 
-app.get("/protectedroute", checkAuthenticated, (req, res) => {
-  // let user = req.user;
-  res.render("test");
-});
+// app.get("/protectedroute", checkAuthenticated, (req, res) => {
+//   // let user = req.user;
+//   res.render("test");
+// });
 
 app.get("/chat", checkAuthenticated, (req, res) => {
   // let user = req.user;
